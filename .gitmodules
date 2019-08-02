@@ -1,0 +1,3 @@
+[submodule "ci_kit"]
+	path = ci_kit
+	url = https://github.com/andb0t/ci_kit.git
