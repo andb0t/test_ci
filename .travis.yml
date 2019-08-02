@@ -1,0 +1,8 @@
+language: bash
+
+script:
+    - bash ./ci_kit/githooks/check_pre_commit_CRLF.sh
+    - bash ./ci_kit/githooks/check_pre_commit_jupyter.sh
+    - bash ./ci_kit/githooks/check_pre_commit_new_line_at_EOF.sh
+    - bash ./ci_kit/githooks/check_pre_commit_whitespace.sh
+    - bash ./ci_kit/git-ci.d/run_shellcheck.sh
